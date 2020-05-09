@@ -10,6 +10,7 @@ public class Task2 {
      * - дано 17.9
      * - вывод 0.9
      */
+    
     double getFractionalPart(double realNumber) {
         int integerPart = (int) realNumber;
         return realNumber - integerPart;
